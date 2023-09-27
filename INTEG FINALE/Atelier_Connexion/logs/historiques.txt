@@ -1,0 +1,7 @@
+                              ************  H I S T O R I Q U E S ************ 
+ + mer. nov. 16 10:47:29 2022 A employe has been added by id : 2421
+ + mer. nov. 16 17:07:24 2022 A employe has been added by id : 85247
+ + jeu. nov. 17 08:23:20 2022 A employe has been added by id : 555
+ + jeu. nov. 17 08:24:16 2022 A employe has been added by id : 987
+ + jeu. nov. 17 08:24:57 2022 A employe has been added by id : 450
+ + jeu. nov. 17 08:25:49 2022 A employe has been added by id : 325

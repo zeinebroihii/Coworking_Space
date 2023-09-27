@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>menu</class>
+ <widget class="QDialog" name="menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>942</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+background-image: url(:/img/test.jpg);
+font: 12pt &quot;MV Boli&quot;;
+
+</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>20</y>
+     <width>501</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">selection-background-color: rgb(255, 170, 0);
+font: 75 20pt &quot;Palatino Linotype&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Gestion des clients</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="styleSheet">
+       <string notr="true">font: 75 20pt &quot;Palatino Linotype&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Gestion des employés</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>20</y>
+     <width>411</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="styleSheet">
+       <string notr="true">selection-background-color: rgb(255, 170, 0);
+font: 75 20pt &quot;Palatino Linotype&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Gestion des salles</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="styleSheet">
+       <string notr="true">font: 75 20pt &quot;Palatino Linotype&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Gestion des réservations</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>540</y>
+     <width>499</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">selection-background-color: rgb(255, 170, 0);
+font: 75 20pt &quot;Palatino Linotype&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Gestion des offres</string>
+   </property>
+  </widget>
+  <zorder>pushButton_5</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>layoutWidget_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MessengerConnection</class>
+ <widget class="QDialog" name="MessengerConnection">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>905</width>
+    <height>586</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>200</y>
+     <width>123</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sitka</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <property name="text">
+    <string>Nom :</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="Port">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>270</y>
+     <width>226</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 15px;
+border: 2px solid rgb(1, 38, 56);
+background-color: rgba(255, 255, 255,100);</string>
+   </property>
+   <property name="maximum">
+    <number>99999999</number>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="HostName">
+   <property name="geometry">
+    <rect>
+     <x>369</x>
+     <y>200</y>
+     <width>231</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+border-radius: 15px;
+border: 2px solid rgb(1, 38, 56);
+background-color: rgba(255, 255, 255,100);
+}
+QLineEdit:hover {
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(167, 218, 239), stop:1 rgba(47, 109, 139,50));
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Cancel">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>390</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sitka</family>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: rgb(167, 218, 239);
+border-radius: 15px;
+border: 2px solid rgb(1, 38, 56);
+}
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(167, 218, 239), stop:1 rgb(47, 109, 139));
+}</string>
+   </property>
+   <property name="text">
+    <string>Annuler</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Ok">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>390</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sitka</family>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: rgb(167, 218, 239);
+border-radius: 15px;
+border: 2px solid rgb(1, 38, 56);
+}
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(167, 218, 239), stop:1 rgb(47, 109, 139));
+}</string>
+   </property>
+   <property name="text">
+    <string>Accepter</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>270</y>
+     <width>227</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sitka</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <property name="text">
+    <string>Port :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>100</y>
+     <width>491</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/plane.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>370</y>
+     <width>161</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tayarni.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>label</zorder>
+  <zorder>Port</zorder>
+  <zorder>HostName</zorder>
+  <zorder>Cancel</zorder>
+  <zorder>Ok</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_4</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
